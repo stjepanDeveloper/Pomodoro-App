@@ -1,0 +1,17 @@
+.tomato-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.tomato-wrapper {
+  position: relative; /* Makes this the positioning context */
+  width: 450px; /* Adjusted size */
+  height: 450px;
+}
+
+.tomato-svg {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=SvgGallery.module.css.map */

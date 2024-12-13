@@ -1,0 +1,17 @@
+.app-container {
+    background-color: #efdbdb;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    color: #241b1b;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

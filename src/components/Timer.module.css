@@ -1,0 +1,60 @@
+.timer-container {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%; /* Ensure it spans the full tomato */
+  height: 100%; /* Ensure it spans the full tomato */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center;
+}
+.timer-container h2 {
+  margin-bottom: 8px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.timer-container h1 {
+  margin-bottom: 18px;
+  font-size: 3rem; /* Adjusted font size */
+  font-weight: bold;
+  color: #ffffff; /* Changed to white for contrast */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* Reduced gap between buttons */
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.controls .row {
+  display: flex;
+  gap: 10px; /* Add space between buttons */
+  justify-content: center;
+}
+.controls button {
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background: #94a61e; /* Tomato-themed gradient */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+.controls button:hover {
+  transform: scale(1.05);
+  background: #57620f; /* Darker green on hover */
+}
+.controls button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}/*# sourceMappingURL=Timer.module.css.map */
